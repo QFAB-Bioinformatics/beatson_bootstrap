@@ -42,7 +42,7 @@ fancy_echo 'Updating homebrew..'
 brew update
 
 fancy_echo 'Running Brew file..'
-brew bundle --file=brew.fil
+brew bundle --file=brew.file
 
 fancy_echo 'Setting OSX defaults..'
 source osx_defaults.sh
