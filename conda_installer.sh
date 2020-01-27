@@ -78,6 +78,14 @@ else
 	echo "Conda already installed."
 fi
 
-conda_update
+#conda_update
 
 echo "Beatson OS X Conda installation complete"
+
+echo "Creating default Conda envs"
+
+conda env create -f beatson_py3.yml
+
+conda env create -f beatson_py2.yml
+
+echo "Completed"
