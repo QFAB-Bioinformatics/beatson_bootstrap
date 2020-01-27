@@ -2,6 +2,8 @@ name: beatson_py3
 channels:
   - bioconda
   - conda-forge
+  - biobuilds
+  - qfab
   - defaults
 dependencies:
   - bzip2
@@ -111,7 +113,6 @@ dependencies:
   - qt
   - dendropy
   - jedi
-  - progressivemauve
   - six
   - jsonschema
   - pango
@@ -150,7 +151,6 @@ dependencies:
   - olefile
   - jbig
   - beast
-  - efficient-bge
   - beautifulsoup4
   - simplegeneric
   - breakdancer

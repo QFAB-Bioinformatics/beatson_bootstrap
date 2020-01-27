@@ -2,6 +2,8 @@ name: beatson_py2
 channels:
   - bioconda
   - conda-forge
+  - biobuilds
+  - qfab
   - defaults
 dependencies:
   - aragorn
@@ -129,7 +131,6 @@ dependencies:
   - cgal
   - nbconvert
   - rhash
-  - dialigntx
   - simplejson
   - canu
   - mistune
@@ -143,11 +144,9 @@ dependencies:
   - pillow
   - reportlab
   - ete3
-  - ete_toolchain
   - google-sparsehash
   - intel-openmp
   - clustalo
-  - phylobayes
   - nlopt
   - cairomm
   - pickleshare
@@ -168,7 +167,6 @@ dependencies:
   - decorator
   - graphite2
   - pilon
-  - system
   - scoary
   - prompt_toolkit
   - pthread-stubs
@@ -183,11 +181,9 @@ dependencies:
   - ipykernel
   - shrimp
   - pexpect
-  - slr
   - iqtree
   - bcbiogff
   - entrez-direct
-  - t_coffee
   - gobject-introspection
   - joblib
   - olefile
@@ -207,7 +203,6 @@ dependencies:
   - snp-dists
   - wcwidth
   - lxml
-  - kalign
   - jupyter_core
   - muscle
   - jupyter_client
@@ -216,11 +211,9 @@ dependencies:
   - jbig
   - mkl
   - beast
-  - pmodeltest
   - simplegeneric
   - sra-tools
   - blasr
-  - ksnp
   - repeatmasker
   - parsnp
   - harvesttools
