@@ -1,7 +1,6 @@
 cask_args appdir: '/Applications'
 tap 'homebrew/services'
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+tap 'homebrew/cask-versions'
 
 ## CLI
 brew 'git'
